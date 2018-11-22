@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
+(kicad_pcb (version 20171130) (host pcbnew 5.0.1-33cea8e~68~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 28)
+    (drawings 36)
     (tracks 182)
     (zones 0)
     (modules 23)
@@ -58,6 +58,7 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (grid_origin 38.608 26.035)
     (visible_elements 7FFFF71F)
@@ -1082,6 +1083,14 @@
     )
   )
 
+  (gr_line (start 91.948 27.305) (end 97.028 27.305) (layer B.Paste) (width 0.2))
+  (gr_line (start 91.948 26.035) (end 91.948 27.305) (layer B.Paste) (width 0.2))
+  (gr_line (start 79.248 26.035) (end 91.948 26.035) (layer B.Paste) (width 0.2))
+  (gr_line (start 79.248 27.305) (end 79.248 26.035) (layer B.Paste) (width 0.2))
+  (gr_line (start 69.088 27.305) (end 79.248 27.305) (layer B.Paste) (width 0.2))
+  (gr_line (start 66.548 27.305) (end 69.088 27.305) (layer B.Paste) (width 0.2))
+  (gr_line (start 66.548 26.035) (end 66.548 27.305) (layer B.Paste) (width 0.2))
+  (gr_line (start 53.848 26.035) (end 66.548 26.035) (layer B.Paste) (width 0.2))
   (gr_line (start 97 45) (end 97 24) (layer Cmts.User) (width 0.2))
   (gr_line (start 21 23) (end 21 75) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 133 23) (end 21 23) (angle 90) (layer Edge.Cuts) (width 0.15))
